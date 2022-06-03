@@ -1,7 +1,7 @@
-import { Common, VISIBLE_SCREEN } from "./Common.esm.js";
-import { gameLevels } from './GameLevels.esm.js';
-import { loader, DATALOADED_EVENT_NAME } from './Loader.esm.js';
-import { canvas } from "./Canvas.esm.js";
+import { Common, VISIBLE_SCREEN } from "./Common.js";
+import { gameLevels } from './GameLevels.js';
+import { loader, DATALOADED_EVENT_NAME } from './Loader.js';
+import { canvas } from "./Canvas.js";
 
 const GameState = {
     pointsToWin: 7000,

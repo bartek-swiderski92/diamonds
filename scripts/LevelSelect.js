@@ -1,8 +1,8 @@
-import { Common, HIDDEN_SCREEN, VISIBLE_SCREEN } from './Common.esm.js';
-import { canvas } from './Canvas.esm.js';
-import { loader, DATALOADED_EVENT_NAME } from './Loader.esm.js';
-import { game } from './Game.esm.js';
-import { media } from './Media.esm.js';
+import { Common, HIDDEN_SCREEN, VISIBLE_SCREEN } from './Common.js';
+import { canvas } from './Canvas.js';
+import { loader, DATALOADED_EVENT_NAME } from './Loader.js';
+import { game } from './Game.js';
+import { media } from './Media.js';
 
 const gameLevels = [
     {

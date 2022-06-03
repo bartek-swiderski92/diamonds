@@ -1,6 +1,6 @@
-import { Common, HIDDEN_SCREEN, VISIBLE_SCREEN } from './Common.esm.js';
-import { levelSelect } from './LevelSelect.esm.js';
-import { CANVAS_WIDTH, CANVAS_HEIGHT } from './Canvas.esm.js';
+import { Common, HIDDEN_SCREEN, VISIBLE_SCREEN } from './Common.js';
+import { levelSelect } from './LevelSelect.js';
+import { CANVAS_WIDTH, CANVAS_HEIGHT } from './Canvas.js';
 
 const SCALE_PROPERTY = '--scale-value'
 const START_SCREEN_ID = 'js-start-screen';
