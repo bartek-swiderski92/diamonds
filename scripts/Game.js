@@ -3,6 +3,9 @@ import { gameLevels } from './GameLevels.js';
 import { loader, DATALOADED_EVENT_NAME } from './Loader.js';
 import { canvas } from "./Canvas.js";
 
+export const GAME_BOARD_X_OFFSET = 40;
+export const GAME_BOARD_Y_OFFSET = -5;
+
 const GameState = {
     pointsToWin: 7000,
     getPlayerPoints: () => 1000,
