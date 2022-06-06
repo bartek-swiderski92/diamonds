@@ -1,4 +1,4 @@
-import { canvas } from './Common.js';
+import { canvas } from './Canvas.js';
 
 export class Sprite {
     constructor(x, y, width, height, spritesImage, numberOfSprites = 1, offset = { x: 0, y: 0 }) {
@@ -12,7 +12,7 @@ export class Sprite {
         this.offset = { ...offset };
     };
 
-    draw(numberOfSprites = 0, radio = 1) {
+    draw(numberOfSprites = 0, ratio = 1) {
         if (numberOfSprites > this.numberOfSprites) {
             return
         }
