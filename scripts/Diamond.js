@@ -1,5 +1,5 @@
 import { Sprite } from "./Sprite.js";
-import { GAME_BOARD_X_OFFSET, GAME_BOARD_Y_OFFSET } from './Game.js'
+import { GAME_BOARD_X_OFFSET, GAME_BOARD_Y_OFFSET } from './GameLevels.js'
 
 export const DIAMOND_SIZE = 48;
 
